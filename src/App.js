@@ -1,13 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Button } from '@material-ui/core';
+import { Button, Card } from '@material-ui/core';
+import RecipeReviewCard from './Card.js';
 
 function App() {
   return (
-    <div className="App">
-      <Button color="primary">Hello World</Button>
+    <div className="flexbox-container">
+      <div className= "flexbox-item">
+      <RecipeReviewCard />
+        <RecipeReviewCard />
+        <RecipeReviewCard />
+        <RecipeReviewCard />
+      </div>
+
     </div>
+    
   );
 }
 
