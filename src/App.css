@@ -1,8 +1,12 @@
-.flexbox-container {
+.card-container {
     display: flex;
     justify-content: center;
+    
 }
 
-.flexbox-item {
-
+.card-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
